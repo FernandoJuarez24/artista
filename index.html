@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Artista</title>
+
+	<!-- ESTILOS -->
+	<link rel="stylesheet" href="css/estilos.css">
+
+
+	<!-- FUENTES -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">  
+
+</head>
+<body>
+	<!--- MENU DE NAVEGACIÓN -->
+	<header class="header">
+		<nav class="menu">
+			<h1>
+				<a href="#">Artista</a>
+			</h1>
+
+			<span class="btnMenu">
+				<i class="fas fa-bars"></i>
+			</span>
+
+			<div class="menuLista">
+				<ul>
+					<li><a href="#about">Conóceme</a></li>
+					<li><a href="#galeria">Galería</a></li>
+					<li><a href="#shows">Próximos Shows</a></li>
+					<li><a href="#contacto">Contacto</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Slider -->
+		<div class="slider">
+	
+		</div>
+	</header>
+
+	<main class="main">
+
+		<!-- ABOUT -->
+		<section class="about" id="about">
+			<div class="aboutContenedor">
+				<div class="aboutTitulo">
+					<h2>Conociendo a la Artista</h2>
+					<hr>
+				</div>
+
+				<div class="aboutTexto">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet nibh ut magna maximus gravida. Pellentesque vel quam eu urna vestibulum dignissim. Duis in felis lorem. Donec facilisis ipsum sit amet tincidunt porta. In ac porta justo, nec consequat neque. Maecenas a consectetur mauris, a aliquet ante. Suspendisse eget dui et diam egestas vulputate. Quisque et mi eu tellus faucibus semper ut at arcu. Donec sit amet dui ornare, finibus risus ac, blandit nisi. Donec consequat id dui et posuere. In fringilla auctor sem ac hendrerit. Maecenas non arcu dui. Phasellus nec tincidunt turpis, in commodo quam. Ut id blandit nulla, non tempor elit. Integer a sapien est. Curabitur cursus pulvinar purus. </p>
+				</div>
+
+				<div class="aboutGaleria">
+					<img src="img/logos/01.jpg" alt="">
+					<img src="img/logos/02.jpg" alt="">
+					<img src="img/logos/03.jpg" alt="">
+				</div>	
+			</div>
+		</section>
+
+		<!-- GALERIA PRINCIPAL -->
+		<section class="galeria" id="galeria">
+			<div class="galeriaContenedor">
+				<div class="galeriaTitulo">
+					<h2>Geleria</h2>
+					<hr>
+				</div>
+
+				<div class="galeriaGrupo">
+					<div class="galeriaCard">
+						<a href="img/galeria/01.jpg" data-lightbox="roadtrip"><img src="img/galeria/01.jpg" alt=""></a>
+					</div>
+					<div class="galeriaCard">
+						<a href="img/galeria/02.jpg" data-lightbox="roadtrip"><img src="img/galeria/02.jpg" alt=""></a>
+					</div>
+					<div class="galeriaCard">
+						<a href="img/galeria/03.jpg" data-lightbox="roadtrip"><img src="img/galeria/03.jpg" alt=""></a>
+					</div>
+					<div class="galeriaCard">
+						<a href="img/galeria/04.jpg" data-lightbox="roadtrip"><img src="img/galeria/04.jpg" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- PROXIMOS SHOWS -->
+		<section class="shows" id="shows">
+			<figure class="showsImg">
+				<h3>¡No te pierdas mi proximo show!</h3>
+				<p>Octubre 2021 a las 16:00</p>
+			</figure>
+		</section>
+
+		<!-- GALERIA SECUNDARIA -->
+		<section class="galeria" id="galeria01">
+			<div class="galeriaContenedor">
+				<div class="galeriaTitulo">
+					<h2>Geleria</h2>
+					<hr>
+				</div>
+
+				<div class="galeriaGrupo">
+					<div class="galeriaCard">
+						<a href="img/galeria/01.jpg" data-lightbox="roadtrip"><img src="img/galeria/01.jpg" alt=""></a>
+					</div>
+					<div class="galeriaCard">
+						<a href="img/galeria/02.jpg" data-lightbox="roadtrip"><img src="img/galeria/02.jpg" alt=""></a>
+					</div>
+					<div class="galeriaCard">
+						<a href="img/galeria/03.jpg" data-lightbox="roadtrip"><img src="img/galeria/03.jpg" alt=""></a>
+					</div>
+					<div class="galeriaCard">
+						<a href="img/galeria/04.jpg" data-lightbox="roadtrip"><img src="img/galeria/04.jpg" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--FORMULARIO-->
+		<section class="contacto" id="contacto">
+			<div class="contactoContenedor">
+				<div class="contactoTitulo">
+					<h2>Contacto</h2>
+				</div>
+
+				<div class="formularioContenedor" data-aos="fade-up" data-aos-duration="1000">
+					<div id="formulario">
+						<label for="user">Nombre</label>
+						<input type="text" id="user" name="user" placeholder="Ingresa Nombre">
+
+						<label for="email">Correo Electronio</label>
+						<input type="email" id="email" name="email" placeholder="Ingresa Correo Electronico">
+
+						<label for="mensaje">Escribe tu Mensaje</label>
+						<textarea name="mensaje" id="mensaje"></textarea>
+
+						<div class="enviar">
+							<button id="alert">Enviar</button>
+						</div>
+
+						<div class="formularioMsj">
+							<p>Deja tus dudas o comentarios</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</section>
+	</main>
+
+	<!--HOME-->
+	<div class="home">
+		<span class="fas fa-level-up-alt"></span>
+	</div>
+
+	<!--FOOTER-->
+	<footer class="footer">
+		<p>&copy; Mi Carcacha | Derechos Reservados 2021</p>
+	</footer>
+
+<!-- SCRIPTS -->
+<script src="https://kit.fontawesome.com/15876357fa.js" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
