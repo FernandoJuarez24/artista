@@ -1,0 +1,46 @@
+@media only screen and (max-width: 800px){
+	.about .aboutContenedor .aboutGaleria img{
+		height: 150px;
+	}
+	.galeria .galeriaGrupo{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.contacto .contactoContenedor .formularioContenedor{
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 550px){
+	.menu h1 > a{
+		margin-left: 30px;
+	}
+	.menu .btnMenu{
+		margin-right: 30px;
+	}
+	.about .aboutContenedor .aboutTitulo h2{
+		font-size: 40px;
+	}
+	.about .aboutContenedor .aboutGaleria{
+		display: block;
+	}
+	.about .aboutContenedor .aboutGaleria img{
+		width: 80%;
+		height: inherit;
+		margin-left: 40px;
+	}
+	.galeria .galeriaGrupo{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.galeria .galeriaGrupo{
+		height:800px;
+	}
+	.contacto .contactoContenedor .formularioContenedor{
+		width: 95%;
+	}
+	.menu .menuLista ul{
+		display: block;
+	}
+	.menu .menuLista{
+		height:500px;
+	}
+}
