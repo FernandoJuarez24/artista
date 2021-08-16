@@ -13,7 +13,13 @@
 	<!-- FUENTES -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">  
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!--Favicon-->
+	<link rel="icon" href="icon.png" type="image/png" />
+
+	<!--Animaciones-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
@@ -56,11 +62,11 @@
 					<hr>
 				</div>
 
-				<div class="aboutTexto">
+				<div class="aboutTexto" data-aos="fade-up" data-aos-duration="1000">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet nibh ut magna maximus gravida. Pellentesque vel quam eu urna vestibulum dignissim. Duis in felis lorem. Donec facilisis ipsum sit amet tincidunt porta. In ac porta justo, nec consequat neque. Maecenas a consectetur mauris, a aliquet ante. Suspendisse eget dui et diam egestas vulputate. Quisque et mi eu tellus faucibus semper ut at arcu. Donec sit amet dui ornare, finibus risus ac, blandit nisi. Donec consequat id dui et posuere. In fringilla auctor sem ac hendrerit. Maecenas non arcu dui. Phasellus nec tincidunt turpis, in commodo quam. Ut id blandit nulla, non tempor elit. Integer a sapien est. Curabitur cursus pulvinar purus. </p>
 				</div>
 
-				<div class="aboutGaleria">
+				<div class="aboutGaleria" data-aos="fade-up" data-aos-duration="1000">
 					<img src="img/logos/01.jpg" alt="">
 					<img src="img/logos/02.jpg" alt="">
 					<img src="img/logos/03.jpg" alt="">
@@ -78,7 +84,7 @@
 					<hr>
 				</div>
 
-				<div class="galeriaGrupo">
+				<div class="galeriaGrupo" data-aos="zoom-in" data-aos-duration="1000">
 					<div class="galeriaCard">
 						<a href="img/galeria/01.jpg" data-lightbox="roadtrip"><img src="img/galeria/01.jpg" alt=""></a>
 					</div>
@@ -99,8 +105,8 @@
 		<section class="shows" id="shows">
 			<div class="diagonalAbajoMorado"></div>
 			<figure class="showsImg">
-				<h3>¡No te pierdas mi proximo show!</h3>
-				<p>Octubre 2021 a las 16:00</p>
+				<h3 data-aos="fade-up" data-aos-duration="1000">¡No te pierdas mi proximo show!</h3>
+				<p data-aos="fade-up" data-aos-duration="1000">Octubre 2021 a las 16:00</p>
 			</figure>
 			<div class="diagonalArribaMorado"></div>
 		</section>
@@ -113,7 +119,7 @@
 					<hr>
 				</div>
 
-				<div class="galeriaGrupo">
+				<div class="galeriaGrupo" data-aos="zoom-in" data-aos-duration="1000">
 					<div class="galeriaCard">
 						<a href="img/galeria/01.jpg" data-lightbox="roadtrip"><img src="img/galeria/01.jpg" alt=""></a>
 					</div>
@@ -178,5 +184,8 @@
 <script src="js/boton.js"></script>
 <script src="js/lightbox-plus-jquery.min.js"></script><!--Lightbox-->
 <script src="js/lightbox.min.js"></script><!--Lightbox-->
+<!--Animaciones-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
 </body>
 </html>
