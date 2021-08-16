@@ -153,10 +153,9 @@ body{
 }
 .about .aboutContenedor .aboutGaleria img{
 	width: calc(33.33% - 10%);
-	/*height: 300px;*/
+	height: 300px;
 	object-fit: cover;
 	margin:25px;
-	border-radius: 10px;
 	cursor: pointer;
 	border: 5px solid var(--moradoOscuro);
 }
@@ -207,10 +206,9 @@ body{
 	object-fit: cover;
 	cursor:pointer;
 	transition:0.5s;
-	border-radius: 10px;
 }
 .galeria .galeriaContenedor .galeriaGrupo .galeriaCard:hover img{
-	transform: scale(1.1);
+	transform: scale(1.2);
 }
 
 /* SHOWS */
@@ -279,7 +277,6 @@ body{
     margin: 150px auto auto auto;
     background: var(--moradoOscuro);
     padding:30px;
-    border-radius: 10px;
 }
 .contacto .contactoContenedor .formularioContenedor #formulario{
 	display: flex;
