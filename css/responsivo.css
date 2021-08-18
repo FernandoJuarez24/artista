@@ -8,6 +8,12 @@
 	.contacto .contactoContenedor .formularioContenedor{
 		width: 80%;
 	}
+	#slider{
+		height: 700px;
+	}
+	.menu .menuLista ul li a{
+		font-size: 35px;
+	}
 }
 
 @media only screen and (max-width: 550px){

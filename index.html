@@ -46,14 +46,25 @@
 		</nav>
 
 		<!-- Slider -->
-		<div class="slider">
-			<figure class="figureImg"></figure>
+		<div id="sliderPrincipal">
+
+			<!-- BARRA DE PROGRESO -->
+			<div id="barraProgresoContenedor">
+				<div id="barraProgreso"></div>
+			</div>
+
+			<div id="slider">
+				<img id="img01" src="" alt="">
+				<img id="img02" src="" alt="">
+			</div>
+
+			<div id="indicadores"></div>
 		</div>
 
-		<div class="diagonalArriba"></div>
 	</header>
 
 	<main class="main">
+			<div class="diagonalArriba"></div>
 
 		<!-- ABOUT -->
 		<section class="about" id="about">
@@ -181,11 +192,12 @@
 	</footer>
 
 <!-- SCRIPTS -->
-<script src="https://kit.fontawesome.com/15876357fa.js" crossorigin="anonymous"></script>
-<script src="js/main.js"></script>
-<script src="js/boton.js"></script>
 <script src="js/lightbox-plus-jquery.min.js"></script><!--Lightbox-->
 <script src="js/lightbox.min.js"></script><!--Lightbox-->
+<script src="https://kit.fontawesome.com/15876357fa.js" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/boton.js"></script>
 <!--Animaciones-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>AOS.init();</script>
